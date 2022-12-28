@@ -1,6 +1,211 @@
-.logo__img {
-    height: 50px;
-    width: 100%;
+* {
+    font-family: Roboto;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.header__box--center {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 220px;
+    height: 60px;
+    margin: 16px 0;
+    padding: 0;
+}
+
+.logo a {
+    width: 220px;
+    height: 60px;
+    display: block;
+    background: url(/image/test.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.search {
+    margin-top: 16px;
+    width: 360px;
+    position: relative;
+    float: left;
+}
+
+.search p {
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    width: 320px;
+    height: 40px;
+    border: 1px solid #bdbdbd;
+    border-right: none;
+}
+
+.search__searchbox {
+    font-size: 14px/38px;
+    width: 350px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    padding-left: 12px;
+}
+
+.search__btn {
+    float: left;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #3e98a1;
+    line-height: 1;
+}
+
+.search__btn:hover {
+    background-color: red;
+}
+
+.search__btn--icon {
+    display: block;
+}
+
+.search__btn--icons {
+    font-size: 18px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.login {
+    overflow: hidden;
+    width: 170px;
+    height: 40px;
+    background-color: #fff;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.login a {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    background-color: #3e98a1;
+}
+
+.login__icon {
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    padding: 7px 0;
+}
+
+.login__icon i {
+    font-size: 16px;
+    color: white;
+}
+
+.login__icon i:nth-of-type(2) {
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+.login a:hover {
+    background-color: red;
+}
+
+.navbar {
+    background-color: #3e98a1;
+    height: 40px;
+}
+
+.navbar__main {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    background-color: #3e98a1;
+}
+
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item--theloai {
+    width: 280px;
+    height: 40px;
+    margin-right: 30px;
+    cursor: pointer;
+    background-color: #077c86;
+}
+
+.nav-item--theloai span, .fa-list {
+    font-size: 16px;
+    display: block;
+    color: #fff;
+    background-color: #077c86;
+    margin: 6px 0;
+}
+
+.nav-item--theloai span {
+    padding-left: 18px;
+}
+
+.fa-list {
+    padding-right: 10px;
+}
+
+.navlist--item {
+    padding: 6px 32px !important;
+    color: white !important;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navlist--item:hover {
+    background-color: #077c86;
+    color: white;
+}
+
+.navlist--item-right {
+    float: right;
+}
+
+.collapse {
+    position: relative;
+}
+
+/* 
+.fa-mobile-screen {
+    color: white !important;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 10px;
+} */
+
+
+
+
+
+
+
+
+form {
+    display: block;
 }
 
 .banner-sm {
