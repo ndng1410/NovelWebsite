@@ -1,10 +1,16 @@
 * {
     font-family: Roboto;
     color: #666;
-    margin: 0;
-    padding: 0;
     font-size: 14px;
     line-height: 1.5;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 div {
@@ -192,7 +198,7 @@ ul li {
 
 */
 
-.index__one, .index__two, .index__three, .index__banner {
+.index__one, .index__two, .index__three, .index__four, .index__five, .index__banner {
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
@@ -258,7 +264,7 @@ ul li {
     color: red;
 }
 
-.index__two, .index__three {
+.index__two, .index__three, .index__four, .index__five {
     margin: 30px auto;
 }
 
@@ -297,10 +303,68 @@ ul li {
     float: right;
 }
 
+.index__truyenmoi--title, .index__truyenhoanthanh--title {
+    padding: 0;
+}
 
+.card-img-top {
+    height: 200px;
+}
 
+.card-title a {
+    font-size: 20px;
+    font-weight: 600;
+}
 
+.index__truyenmoito--theloai, .index__truyenmoito--theloai {
+    font-size: 18px;
+}
 
+.index__truyenmoito--sochuong, .index__truyenmoito--sochuong {
+    font-size: 16px;
+}
+
+.index__truyenmoito--gioithieu, .index__truyenmoito--gioithieu {
+    font-size: 14px;
+}
+
+.index__truyenmoito--list {
+    padding-bottom: 10px;
+}
+
+.book--info a {
+    font-size: 18px;
+    font-weight: 600;   
+}
+
+.book--info p {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.book-state a {
+    font: 16px;
+    font-weight: lighter;
+}
+
+.footer--container {
+    background-color: #f8f8f8;
+    margin-top: 10px;
+    padding: 20px 0;
+    border-top: 1px solid #e7e7e7;
+    color: #4e4e4e;
+}
+
+.footer--inside-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer--text {
+    opacity: 0.7;
+}
 
 .banner-sm {
     height: 100px;
@@ -308,6 +372,11 @@ ul li {
 }
 
 .book--imgcss {
-    height: 50px;
-    width: 50px;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.special {
+    border: none;
 }
