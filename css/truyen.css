@@ -1,0 +1,105 @@
+.book--information {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.book--img {
+    height: 100%;
+}
+
+.book--img img {
+    height: 100%;
+    width: 100%;
+}
+
+.book--info-buttons a {
+    background-color: blanchedalmond;
+    border: 1px solid;
+}
+
+.content--nav, .book--content {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px
+}
+
+.like-more-list {
+    width: 84px;
+}
+
+.like-more-list li:not(:first-child) {
+    margin-left: 10px;
+}
+
+.like-more-img {
+    width: 84px;
+    height: 112px;
+}
+
+.like-more-img a, .like-more-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.user--photo {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+} 
+
+.user--photo a, .user--photo img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.go--discuss {
+    text-align: center;
+    border: 1px solid;
+}
+
+.author--img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 14px auto 0;
+}
+
+.author img, .author h4 {
+    text-align: center;
+}
+
+.author {
+    background-color: blanchedalmond;
+}
+
+.img-box {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+}
+
+.img-box a, .img-box img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.num-box, .topname-box {
+    float: left;
+}
+
+.img-box {
+    float: right;
+}
+
+.rankmap--ranklist-list ul {
+    width: 80%;
+}
+
+.rankmap {
+    margin-top: 50px;
+}
