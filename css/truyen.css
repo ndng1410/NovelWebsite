@@ -76,6 +76,15 @@
     background-color: blanchedalmond;
 }
 
+.writer {
+    background-color: bisque;
+    margin-top: 10px;
+}
+
+.writer img, .writer h4 {
+    text-align: center;
+}
+
 .img-box {
     width: 44px;
     height: 44px;
