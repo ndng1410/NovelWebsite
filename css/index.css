@@ -101,7 +101,6 @@ a {
 .search__btn--icons {
     font-size: 16px;
     color: #fff;
-
 }
 
 .btn--search-color {
@@ -235,6 +234,7 @@ ul li {
 .index__theloai--chitiet-cot1:hover, .index__theloai--chitiet-cot2:hover {
     background-color: #077c86;
     color: #fff;
+    border-radius: 5px;
 }
 
 .index__theloai--chitiet-cot1 a, .index__theloai--chitiet-cot2 a {
@@ -487,7 +487,7 @@ ul li {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #3e98a1; /* Set a background color */
+    background-color: #343a40; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
